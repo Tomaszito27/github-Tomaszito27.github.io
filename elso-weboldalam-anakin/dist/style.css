@@ -1,0 +1,173 @@
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainHeader { 
+  height: 340px;
+  width: 1080px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: -9px;
+  background: center / contain no-repeat url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+}
+#intro {
+  display: block;
+  width: 600px;
+  height: 100px;
+  padding: 0px 0px 0px 0px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+  color: #222;
+  line-height: 1;
+}
+.bigText {
+  font-size: 62px;
+  color: #222;
+  line-height: 1;
+  }
+#leftNav {
+  position: fixed;
+  width: 70px;
+  height: 140px;
+  top: 18%;
+  opacity: .1;
+  cursor: pointer;
+  margin: 200px;
+  padding: 20px;
+  left: -245px;
+  border-top-right-radius: 900px;
+  border-bottom-right-radius: 900px;
+  background-color: #000;
+}
+#leftNav:hover {
+  left: -210px; 
+  opacity: .6;
+  transition: 0.2s;
+}
+.material-symbols-outlined {
+  e5e0;
+  font-size: 40px;
+  color: white;
+}
+#rightNav {
+  position: fixed;
+  width: 70px;
+  height: 140px;
+  top: 18%;
+  opacity: .1;
+  text-align: center;
+  cursor: pointer;
+  margin: 200px;
+  padding: 20px;
+  right: -245px;
+  border-top-left-radius: 900px;
+  border-bottom-left-radius: 900px;
+  background-color: #000;
+}
+#rightNav:hover {
+  right: -210px; 
+  opacity: .6;
+  transition: 0.2s;
+}
+.material-symbols-outlined {
+  e5e1;
+  font-size: 40px;
+  color: white;
+}
+.mainBody {
+  width: 710px;
+}
+.paragraph1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 17px;
+  color: #222;
+  line-height: 1.5;
+  margin-top: 40px;
+}
+.list1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 17px;
+  color: #222;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+.quoteContainer {
+  position: relative;
+  right: 55px;
+  width: 780px;
+  height: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #222; 
+  opacity: .9
+}
+.quoteMark {
+  position: relative;
+  width: 45px;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  padding: 4px 0px 0px 4px;
+}
+.quote {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 45px;
+  color: white;
+  margin-top: 0px;
+  margin-left: 45px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+}
+.headings {
+  margin-top: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  color: #222;
+  line-height: 1.5;
+}
+.titles {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  color: #222;
+  line-height: 1.5;
+}
+.subtitles {
+  margin-top: 0px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 15px;
+  color: #222;
+}
+.paragraph2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  color: #222;
+  line-height: 1.5;
+}
+.list2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  color: #222;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.line {
+  position: relative;
+        top: 0px;
+        border: none;
+        color: #222;
+        height: 3px;
+        background: black;
+        margin-bottom: 40px;
+        margin: top: 40;
+}

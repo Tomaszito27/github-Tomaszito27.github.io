@@ -1,0 +1,205 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 105px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.topnav {
+ position: fixed;
+ top: 0px;
+ display: flex;
+ z-index:2;
+ align-items: center;
+ justify-content: center;
+ gap: 50px;
+ width: 1210px;
+ height: 100px;
+ background: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_960_720.png); 
+ font-family: 'Carrois Gothic SC', sans-serif;
+ font-size: 46px;
+}
+.topnav a {
+  color: white;
+  text-shadow: 4px 4px 10px #69FF47;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 1200px;
+  height: auto;
+  padding: 92px 10px 0px 0px;
+  margin-top: 80px;
+  margin-bottom: -60px;
+  background-color: #E3D586;
+  }
+.leftColumn {
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+}
+.rightColumn {
+  width: 58%;
+  padding: 0px 30px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.mainHeader { 
+  height: 550px;
+  width: auto;
+  position: relative;
+  display: flex-inline;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_960_720.png);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  margin-bottom: 40px;
+}
+#YodaPic {
+  position: absolute;
+  height: 570px;
+  width: auto;
+  z-index: 1;
+}
+#intro {
+  position: relative;
+  right: 120px;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 100px;
+  padding: 0px 0px 0px 0px;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 72px;
+  color: white;
+  text-shadow: 4px 4px 10px #69FF47;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  z-index: 2;
+}
+#bigText {
+  position: relative;
+  display: flex;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 140px;
+  color: white;
+  text-shadow: 4px 4px 10px #69FF47;
+  line-height: 1;
+  padding: 60px 0px 0px 20px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  z-index: 2;
+  }
+.quoteContainer {
+  position: relative;
+  right: 0px;
+  width: 500px;
+  height: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_960_720.png);
+}
+.quoteMark {
+  position: relative;
+  display: flex;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 190px;
+  color: white;
+  text-shadow: 4px 4px 10px #69FF47;
+  width: 85px;
+  height: 85px;
+  margin-bottom: 0px;
+  margin-top: -20px;
+  padding: 0px 0px 0px 0px;
+}
+.quote {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 126px;
+  color: white;
+  text-shadow: 4px 4px 10px #69FF47;
+  margin-top: 0px;
+  margin-left: 70px;
+  margin-right: 80px;
+  margin-bottom: 70px;
+}
+#quoteContainer1 {
+  margin-top: 70px;
+  margin-bottom: 320px;
+}
+#quoteContainer2 {
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 1210px;
+  height: 530px;
+  background: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_960_720.png); 
+  z-index:2;
+  top-margin: 0px;
+}
+.paragraph1 {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 26px;
+  color: #222;
+  line-height: 1.5;
+  margin-top: 35px;
+}
+.list1 {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 24px;
+  color: #222;
+  line-height: 1.5;
+  margin-top: 0px;
+  margin-bottom: 175px;
+}
+.headings {
+  margin-bottom: 0px;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 36px;
+  color: #222;
+  line-height: 1.5;
+}
+.titles {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 32px;
+  color: #222;
+  line-height: 1.5;
+}
+.subtitles {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 32px;
+  color: #222;
+}
+.paragraph2 {
+  margin-bottom: 65px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 24px;
+  color: #222;
+  line-height: 1.5;
+}
+.list2 {
+  margin-bottom: 25px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 23px;
+  color: #222;
+  line-height: 1.5;
+}
